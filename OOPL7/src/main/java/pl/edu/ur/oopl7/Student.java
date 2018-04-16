@@ -19,7 +19,9 @@ class Student extends Osoba {
     public Student(String imie, String nazwisko, int data_urodzenia, String plec, String cecha) {
         super(imie, nazwisko, data_urodzenia, plec, cecha);
     }
-public String toString(){
-    return "Informacje o studencie"+getImie();
+    @Override
+    public String toString(){
+    return "Informacje o studencie"+getImie()+getNazwisko();
 }
+    
 }
