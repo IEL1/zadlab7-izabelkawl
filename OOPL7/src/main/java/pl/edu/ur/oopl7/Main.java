@@ -10,5 +10,15 @@ package pl.edu.ur.oopl7;
  * @author student
  */
 public class Main {
-    System.out.println("test")
+    private static void smain(){
+    test m = new test();
+        m.test2d();
+        m.test3d();
+        m.tab2();
+        m.tab3();
+        m.testy();
+    }
+    public static void main(String[] args){
+        smain();
+    }
 }
